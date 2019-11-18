@@ -1,0 +1,33 @@
+{
+  "name": "retail24-transactions-api",
+  "version": "1.0.0",
+  "description": "This API returns a list of transactions to fraud officers",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf build && mkdir build",
+    "build-babel": "babel -d ./build ./src -s",
+    "build": "npm run clean && npm run build-babel",
+    "start": "npm run build && node ./build/index.js",
+    "start-local": "npx babel-node ./src/index.js"
+  },
+  "author": "Cássio Galvão <cassio.galvao@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cagalvao/Retail24Transactions.git"
+  },
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/cagalvao/Retail24Transactions#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "async": "^2.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.9"
+  },
+  "devDependencies": {
+    "babel-node": "0.0.1-security"
+  }
+}

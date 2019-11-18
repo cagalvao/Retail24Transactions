@@ -1,0 +1,9 @@
+node_modules
+build
+*.log
+
+/.cache
+/.config
+/.yarn
+
+.vscode
