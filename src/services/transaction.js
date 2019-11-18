@@ -2,8 +2,7 @@
 import { connect, Schema, model } from 'mongoose';
 
 connect(
-  // process.env.MONGODBCONNSTR,
-  'mongodb+srv://cgalvao:l8ULfAsmkN2K191H@cluster0-wcj5a.mongodb.net/retail24?retryWrites=true&w=majority',
+  process.env.MONGODBCONNSTR,
   { useNewUrlParser: true, useUnifiedTopology: true },
   (err) => {
     console.log(err ? 'Error connecting to MongoDB: ' + err : 'Successfully connected to MongoDB');
