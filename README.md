@@ -5,7 +5,10 @@ GET /api/transactions?transactionId={transactionId}&confidenceLevel={confidence}
 
 Currently deployed at https://retail24-transactions.herokuapp.com/
 
-To run the code globally:\n
-  cd Retail24Transactions\n
-  npm install\n
+To run the code locally:
+
+  cd Retail24Transactions
+  
+  npm install
+  
   npm run start-local
