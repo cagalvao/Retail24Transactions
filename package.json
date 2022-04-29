@@ -19,7 +19,7 @@
   "homepage": "https://github.com/cagalvao/Retail24Transactions#readme",
   "dependencies": {
     "@sendgrid/mail": "^6.4.0",
-    "async": "^2.2.0",
+    "async": "^2.6.4",
     "babel-cli": "^6.26.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
