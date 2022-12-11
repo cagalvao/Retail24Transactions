@@ -24,7 +24,7 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "body-parser": "^1.17.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongoose": "^5.7.9"
   },
   "devDependencies": {
